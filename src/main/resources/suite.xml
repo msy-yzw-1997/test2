@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="login_and_pay">
+    <test name="login">
+        <classes>
+            <class name="zgkj.suit.suiteconfig"/>
+            <class name="zgkj.suit.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="pay">
+        <classes>
+            <class name="zgkj.suit.suiteconfig"/>
+            <class name="zgkj.suit.PayTest"/>
+        </classes>
+    </test>
+</suite>

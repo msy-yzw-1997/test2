@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="group_test">
+    <test name="runAll">
+        <classes>
+            <class name ="zgkj.groups.groupsClass1"/>
+            <class name ="zgkj.groups.groupsClass2"/>
+            <class name ="zgkj.groups.groupsClass3"/>
+        </classes>
+    </test>
+
+    <test name="RunGroups">
+        <groups>
+            <run>
+                <include name="s1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name ="zgkj.groups.groupsClass1"/>
+            <class name ="zgkj.groups.groupsClass2"/>
+            <class name ="zgkj.groups.groupsClass3"/>
+        </classes>
+
+    </test>
+</suite>
